@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1051" MadCap:lastWidth="817">
+    <head>
+    </head>
+    <body>
+        <div MadCap:conditions="StatusCndx.UnreleasedCndx">
+            <p>Use this snippet to insert videos into content, and to provide an image fallback for PDF output. The snippet contains a placeholder for a video and an image. The paragraph that contains the video must have an “online only” condition, so that it can be excluded from PDF output. Similarly, the paragraph with the image must have a “PDF only” condition, so that it can be excluded from online output. </p>
+            <h3>Before using this snippet in content</h3>
+            <ul>
+                <li>Set up your default image and video settings: maximum width, show controls, auto-play, loop, etc. This way, your settings can be standardized across the project. </li>
+            </ul>
+            <h3>To use this snippet in content</h3>
+            <ol>
+                <li>In the topic, right-click the snippet, and select <strong>Convert to text</strong>. The snippet is converted to content.</li>
+                <li>In the first paragraph below: <ol><li>Replace the placeholder video with the video that you want to use.</li><li>Ensure that you have applied the “Online only” condition.</li></ol></li>
+                <li>In the second paragraph: <ol><li>Replace the placeholder image with the image that you want to use as the fallback. </li><li>Ensure that you have applied the “PDF&#160;only” condition.</li></ol></li>
+                <li>Delete this div.</li>
+            </ol>
+        </div>
+        <p MadCap:conditions="OutputFormatCndx.OLHOnlyCndx">
+            <object MadCap:HTML5Video="true" src="../../../videos/repair-add-symptom-to-new-case.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false" style="max-width: 90%;">
+            </object>
+        </p>
+        <p MadCap:conditions="OutputFormatCndx.PrintOnlyCndx">
+            <img src="../../../images/repair-case-test-step.png" alt="" />
+        </p>
+    </body>
+</html>
